@@ -67,8 +67,7 @@
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
         <h1 class="mx-auto my-0 text-uppercase">International Space Station Tracker</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">How I did it</h2>
-        <!--update button to go to live site-->
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">Reach for the Stars!</h2>
         <!-- <a href="#about" class="btn btn-primary js-scroll-trigger">See it Live</a> -->
         <a href="https://natemeinhold.com/wats4000finalproject/#/" class="btn btn-primary js-scroll-trigger" >See Live</a>
         <a href="https://github.com/NateMeinhold/wats4000finalproject" class="btn btn-primary js-scroll-trigger" >See Code</a>
@@ -101,8 +100,8 @@
         </div>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
-            <h4>This is where the information starts about the project</h4>
-            <p class="text-black-50 mb-0">basic info about the capstone with a link to the detailed information</p>
+            <h4>The Goal:</h4>
+            <p class="text-black-50 mb-0">Use Vue.js and an Api to locate and display the location of the International Space Station (ISS).</p>
           </div>
         </div>
       </div>
@@ -116,11 +115,20 @@
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">ISS Tracker</h4>
-                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.
+                <h4 class="text-white">The Method:</h4>
+                <p class="mb-0 text-white-50">The project started as a basic HTML/CSS build. I started with simple text and left spaces for the longitude/latitude to populate on the screen. 
                 </p>
+                <br>
                 <p class="mb-0 text-white-50">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                  Next, I selected the "wheretheiss.at" API to pull in the data I needed; I hooked in the JavaScript to pull the longitude and latitude to pull and populate when the page loads.</p>
+                  <br>
+                  <p class="mb-0 text-white-50">
+                  Using the Vue.js framework, I linked an addional Vue displaying just a pin on a GoogleMap. This was done by displaying a GoogleMap link, with the longitude/latitude drawn from the API replacing the latitude and longitude in the URL</p>
+                  <br>
+                  <h4 class="text-white">Unexpected Challenges:</h4>
+                  <p class="mb-0 text-white-50">
+                    the free api stopped working....linking to googlemaps
+                    </p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
@@ -131,7 +139,7 @@
         <!-- Featured Project Row-->
         <div class="row align-items-center no-gutters mb-4 mb-lg-5">
           <div class="col-xl-8 col-lg-7">
-            <img class="img-fluid mb-3 mb-lg-0" src="img/ISS.JPG" alt="This is where the project picture goes">
+            <img class="img-fluid mb-3 mb-lg-0" src="img/ISSmap.JPG" alt="This is where the project picture goes">
           </div>
           <div class="col-xl-4 col-lg-5">
             <div class="featured-text text-center text-lg-left">
